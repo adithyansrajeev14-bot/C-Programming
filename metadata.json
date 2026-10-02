@@ -1,0 +1,6 @@
+{
+  "name": "Learn C with Celler - AI C Programming Tutor & Code Lab",
+  "description": "A friendly, visual way to learn C programming with an interactive Code Lab, visual debugger, void main() examples, and an AI tutor powered by Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

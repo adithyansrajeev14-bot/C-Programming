@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Learn C with Celler - AI C Programming Tutor &amp; Code Lab</title>
+    <meta name="description" content="A friendly, visual way to learn C programming with an interactive Code Lab, visual debugger, void main() examples, and an AI tutor powered by Gemini." />
+    <meta property="og:title" content="Learn C with Celler - AI C Programming Tutor &amp; Code Lab" />
+    <meta property="og:description" content="A friendly, visual way to learn C programming with an interactive Code Lab, visual debugger, void main() examples, and an AI tutor powered by Gemini." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=JetBrains+Mono:wght@400;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      // Ensure window.fetch has both getter and setter to prevent "Cannot set property fetch of #<Window> which has only a getter"
+      (function() {
+        try {
+          var _origFetch = window.fetch;
+          Object.defineProperty(window, 'fetch', {
+            get: function() { return _origFetch; },
+            set: function(val) { _origFetch = val; },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (e) {
+          // ignore
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div class="toast" id="toast" hidden></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
